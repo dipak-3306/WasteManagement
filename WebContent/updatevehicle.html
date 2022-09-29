@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./dist/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+          crossorigin="anonymous">
+    <style>
+        .login{
+            background: url('./dist/images/login-new.jpeg')
+        }
+    </style>
+    <title>Update Vehicle Details</title>
+</head>
+<body class="h-screen font-sans login bg-cover">
+<div class="container mx-auto h-full flex flex-1 justify-center items-center">
+    <div class="w-full max-w-lg">
+        <div class="leading-loose">
+            <form action ="UpdateVehicle" method="post"> 
+           
+                <p class="text-gray-800 font-medium"></p>
+                <div class="">
+                    <label class="block text-sm text-gray-00" for="vnumber">Enter Vehicle Number</label>
+                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="vnumber" name="vnumber" type="text" placeholder="Enter Vehicle Number" aria-label="Vehicle Number">
+                </div>
+                <div class="">
+                    <label class="block text-sm text-gray-00" for="vnumber">Enter Driver Name</label>
+                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="dname" name="dname" type="text" placeholder="Enter Driver Name" aria-label="Vehicle Number">
+                </div>
+                <div class="">
+                    <label class="block text-sm text-gray-00" for="vnumber">Enter Driver Contact</label>
+                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="dcontact" name="dcontact" type="text" placeholder="Enter Driver Number" aria-label="Vehicle Number">
+                </div>
+               
+                
+               
+                
+               <div class="mt-4">
+                    <button class="px-4 py-1 text-white font-light tracking-wider bg-gray-900 rounded" type="submit">Submit</button>
+                </div>
+                <a class="inline-block right-0 align-baseline font-bold text-sm text-500 hover:text-blue-800" href="UserLogin.html">
+                
+                <a href="dashboard.html" class="hvr-shutter-in-horizontal">Go To Home</a>
+               
+                </a>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
